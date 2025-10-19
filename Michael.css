@@ -1,0 +1,67 @@
+h1 {
+	color:#2c2c2c;
+	font-family: Georgia, serif;
+	text-align:center;
+}
+h2 {
+	color:#2c2c2c;
+	font-family: Georgia, serif;
+	text-align:center;
+}
+h3 {
+	color:#2c2c2c;
+	font-family: Georgia, serif;
+	text-align:center;
+}	
+body{
+	background-color:#51e2f5;
+	margin:0;
+}
+li{
+	text-align:center;
+}
+.image{
+	position:right;
+  padding:6px;
+  float:right;
+  border:10px;
+}
+.center-text {
+  text-align: center;
+  background-color: grey;
+}
+.infocontainer{
+	text-align: justify;
+	width: 60%;              /* Set a width so it doesn’t stretch full screen */ /* Justisfy text stretches like newspaper */
+  margin: 20 right;						/* applies equal left and right margins, centering it horizontally. */
+  background-color: #f5e9d3;      
+
+}
+.column {
+  flex: 1; /* each column takes equal width */
+  background-color: #f5e9d3;
+  width:96%;
+  text-align: center;
+  font-family: Georgia, serif;
+  padding:20px;
+  font-weight: bold;
+
+
+	}
+
+
+@media(min-width: 600px){ /* media query is here */
+
+	.container {
+  width:95%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+
+
+
+	}
+
+
+}
+	
