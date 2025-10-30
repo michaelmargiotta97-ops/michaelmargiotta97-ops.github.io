@@ -14,11 +14,22 @@ h3 {
 	text-align:center;
 }	
 body{
+<<<<<<< HEAD
 	background-color:#51e2f5;
 	margin:0;
 }
 li{
 	text-align:center;
+=======
+	background-color:lightblue;
+	margin:0;
+}
+li{
+	text-align:left;
+}
+.work{
+	text-align:left;
+>>>>>>> d731985 (responsive changes)
 }
 .image{
 	position:right;
@@ -45,19 +56,6 @@ li{
   font-family: Georgia, serif;
   padding:20px;
   font-weight: bold;
-
-
-	}
-
-
-@media(min-width: 600px){ /* media query is here */
-
-	.container {
-  width:95%;
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-
 
 
 	}
